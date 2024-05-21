@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(1, 1, 46);
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: red;
+    font-size: 1.2rem;
+  }
+  @media only screen and(max-width:600px) {
+    .navtext {
+      font-size: 1rem;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 64px 84px;
+  }
+  
+  .left {
+    font-size: 1.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .left {
+      font-size: 1rem;
+    }
+  }
+  
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+  }
+  
+  .firstsection > div {
+    width: 30%;
+  }
+  
+  .leftsection {
+    font-size: 3rem;
+    margin: 30px 0;
+  }
+  
+  .rightsection img {
+    width: 100%;
+    margin: 80px 0;
+  }
+  
+  .backcolor {
+    color: red;
+  }
+  
+  .backcolor2 {
+    color: blueviolet;
+  }
+  
+  #element {
+    color: green;
+  }
+  
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    
+  }
+  
+  .secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .secondsection .box{
+      flex-direction: column;
+      margin-left:50px;
+      gap:50px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .vertical{
+    font-size: 0.7em;
+  
+    
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .vertical-title .vertical-desc .vertical-DESC .vertical-DESD{
+    font-size: 0.7em;
+    position: absolute;
+  
+  
+    
+    }
+  }
+  
+  
+  .secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-text {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-DESC {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-DESD {
+    position: relative;
+    top: 100px;
+    width: 95px 90px;
+  }
+  .text-gray {
+    color: gray;
+  }
+  .image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* NAV {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+  } */
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  
+  nav ul li A {
+    text-decoration: none;
+    color: white;
+  }
+  
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 64px 84px;
+  }
+  
+  .left {
+    font-size: 1.5rem;
+  }
+  
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+  }
+  
+  .firstsection > div {
+    width: 30%;
+  }
+  
+  .leftsection {
+    font-size: 3rem;
+    margin: 30px 0;
+  }
+  
+  .rightsection img {
+    width: 100%;
+    margin: 80px 0;
+  }
+  
+  .backcolor {
+    color: red;
+  }
+  
+  .backcolor2 {
+    color: blueviolet;
+  }
+  
+  #element {
+    color: green;
+  }
+  
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  
+  .secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-text {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-DESC {
+    position: relative;
+    top: 95px;
+    width: 90px;
+  }
+  .vertical-DESD {
+    position: relative;
+    top: 100px;
+    width: 95px 90px;
+  }
+  .text-gray {
+    color: gray;
+  }
+  .image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+  }
+  /* Media Queries for 200px mobile view */
+  
+  @media only screen and (max-width: 600px) {
+    .leftsection,
+    .rightsection {
+      width: 100%; /* Make sections take up full width */
+    }
+  
+    .leftsection {
+      font-size: 1.2rem; /* Reduce font size */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack navigation items vertically */
+    }
+  
+    .rightsection img {
+      width: 12em; /* Reduce image size */
+    }
+  }
+  
